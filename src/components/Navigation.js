@@ -5,8 +5,8 @@ const Navigation = () => {
     return (
         <div className="navigation">
             <NavLink to="/">Accueil</NavLink>
-            <NavLink to="/about">À propos</NavLink>
-                 
+            <NavLink to="/news">News</NavLink>
+            <NavLink to="/about">À propos</NavLink>       
         </div>
     );
 };
